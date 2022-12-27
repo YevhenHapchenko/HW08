@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background: pink;
+}
+.wrapper{
+    background: red;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.f_b{
+    background: white;
+    font-size: 0px;
+}
+.in_f{
+    width: 400px;
+    background: grey;
+    outline: 2px yellow;
+}
+.tab_c .in_f{
+    display: table-cell;
+    font-size: 16px;
+}
+.s_b{
+    background: orange;
+    font-size: 0px;
+}
+.in_s_l{
+    width: 800px;
+    background: aqua;
+}
+.tab_c .in_s_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_s_r{
+    width: 400px;
+    background: aqua;
+}
+.tab_c .in_s_r{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_s_l_k{
+    border: 1px solid green;
+}
+.in_s_r_k{
+    border: 1px solid green;
+}
+.t_b{
+    background: yellow;
+    font-size: 0px;
+}
+.in_t_l{
+    width: 400px;
+    background: brown; 
+    border: 1px solid black;
+}
+.tab_c .in_t_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_t_r{
+    width: 800px;
+    background: brown;
+    border: 1px solid black;
+}
+.tab_c .in_t_r{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_t_r_c{
+    width: 400px;
+    background: burlywood;
+    border: 1px solid black;
+}
+.tab_c .in_t_r_c{
+    display: table-cell;
+    font-size: 16px;
+}
+.ff_b{
+    background: green;
+    font-size: 0px;
+}
+.in_f_l{
+    width: 800px;
+    background: orange;
+    border: 1px solid black;
+}
+.tab_c .in_f_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_f_r{
+    width: 400px;
+    background: fuchsia;
+    border: 1px solid black;
+}
+.tab_c .in_f_r{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_f_l_l{
+    width: 400px;
+    background: yellow;
+}
+.tab_c .in_f_l_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_f_l_c{
+    width: 400px;
+    background: yellowgreen;
+    border: 1px solid black;
+}
+.tab_c .in_f_l_c{
+    display: table-cell;
+    font-size: 16px;
+}
+.in_f_l_l_c{
+    border: 1px solid black; 
+}
+.inline_b .in_f{
+    display: inline-block;
+    font-size: 16px;
+}
+.inline_b .in_s_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_s_r{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_t_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_t_r{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_t_r_c{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_f_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_f_r{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_f_l_l{
+    display: table-cell;
+    font-size: 16px;
+}
+.inline_b .in_f_l_c{
+    display: table-cell;
+    font-size: 16px;
+}
+.nextPage{
+    color: white;
+    font-size: 20px;
+    margin-left: 550px;
+}
