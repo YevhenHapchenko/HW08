@@ -44,6 +44,10 @@ table {
 body{
     background: pink;
 }
+h1{
+    font-size: 30px;
+    text-align: center;
+}
 .wrapper{
     background: red;
     width: 1200px;
@@ -57,7 +61,7 @@ body{
 .in_f{
     width: 400px;
     background: grey;
-    outline: 2px yellow;
+    outline: 2px solid yellow;
 }
 .tab_c .in_f{
     display: table-cell;
@@ -70,24 +74,26 @@ body{
 .in_s_l{
     width: 800px;
     background: aqua;
+    outline: 2px solid yellow;
 }
 .tab_c .in_s_l{
     display: table-cell;
     font-size: 16px;
 }
+.in_s_l_k{
+    outline: 2px solid yellow;
+}
+.in_s_r_k{
+    outline: 2px solid yellow;
+}
 .in_s_r{
     width: 400px;
     background: aqua;
+    outline: 2px solid yellow;
 }
 .tab_c .in_s_r{
     display: table-cell;
     font-size: 16px;
-}
-.in_s_l_k{
-    border: 1px solid green;
-}
-.in_s_r_k{
-    border: 1px solid green;
 }
 .t_b{
     background: yellow;
@@ -95,8 +101,8 @@ body{
 }
 .in_t_l{
     width: 400px;
-    background: brown; 
-    border: 1px solid black;
+    background: darkmagenta; 
+    outline: 2px solid yellow;
 }
 .tab_c .in_t_l{
     display: table-cell;
@@ -104,17 +110,27 @@ body{
 }
 .in_t_r{
     width: 800px;
-    background: brown;
-    border: 1px solid black;
+    background: mediumorchid;
+    outline: 2px solid yellow;
 }
 .tab_c .in_t_r{
     display: table-cell;
     font-size: 16px;
 }
+.in_t_r_l{
+    width: 800px;
+    background: brown;
+    outline: 2px solid yellow;
+}
 .in_t_r_c{
-    width: 400px;
+    width: 800px;
     background: burlywood;
-    border: 1px solid black;
+    outline: 2px solid yellow;
+    font-size: 0px;
+}
+.in_t_r_c_c{
+    width: 400px;
+    outline: 2px solid yellow;
 }
 .tab_c .in_t_r_c{
     display: table-cell;
@@ -127,7 +143,7 @@ body{
 .in_f_l{
     width: 800px;
     background: orange;
-    border: 1px solid black;
+    outline: 2px solid yellow;
 }
 .tab_c .in_f_l{
     display: table-cell;
@@ -136,7 +152,7 @@ body{
 .in_f_r{
     width: 400px;
     background: fuchsia;
-    border: 1px solid black;
+    outline: 2px solid yellow;
 }
 .tab_c .in_f_r{
     display: table-cell;
@@ -145,6 +161,13 @@ body{
 .in_f_l_l{
     width: 400px;
     background: yellow;
+    outline: 2px solid red;
+}
+.in_f_l_p{
+    font-size: 0px;
+    outline: 2px solid yellow;
+    background: coral;
+
 }
 .tab_c .in_f_l_l{
     display: table-cell;
@@ -153,57 +176,114 @@ body{
 .in_f_l_c{
     width: 400px;
     background: yellowgreen;
-    border: 1px solid black;
+    outline: 2px solid yellow;
 }
 .tab_c .in_f_l_c{
     display: table-cell;
     font-size: 16px;
 }
 .in_f_l_l_c{
-    border: 1px solid black; 
+    width: 400px;
+    background: yellow;
+    outline: 2px solid red; 
 }
 .inline_b .in_f{
     display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_s_l{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_s_r{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_t_l{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
+
 .inline_b .in_t_r{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
-.inline_b .in_t_r_c{
-    display: table-cell;
+.inline_b .in_t_r_l{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.inline_b .in_t_r_c_c{
+    display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_f_l{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_f_r{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_f_l_l{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
 .inline_b .in_f_l_c{
-    display: table-cell;
+    display: inline-block;
     font-size: 16px;
 }
+.inline_b .in_f_l_l_c{
+    display: inline-block;
+}
 .nextPage{
+    text-align: center;
+}
+.link{
     color: white;
     font-size: 20px;
-    margin-left: 550px;
+}
+.float_b .in_f{
+    float: left;
+    font-size: 16px;
+}
+.clear{
+    clear: both;
+}
+.float_b .in_s_l{
+    float: left;
+    font-size: 16px;
+}
+.float_b .in_s_r{
+    float: right;
+    font-size: 16px;
+}
+.float_b .in_t_l{
+    float: left;
+    font-size: 16px;
+}
+.float_b .in_t_r{
+    float: right;
+    font-size: 16px;
+}
+.float_b .in_t_r_c_c{
+    float: right;
+    font-size: 16px;
+}
+
+.float_b .in_f_l{
+    float: left;
+    font-size: 16px;
+}
+.float_b .in_f_r{
+    float: right;
+    font-size: 16px;
+}
+.float_b .in_f_l_l{
+    float: left;
+    font-size: 16px;
+}
+.float_b .in_f_l_c{
+    float: left;
+    font-size: 16px;
 }
